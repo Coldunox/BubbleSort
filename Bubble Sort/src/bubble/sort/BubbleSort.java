@@ -1,5 +1,6 @@
 package bubble.sort;
 import java.util.Scanner;
+import static java.lang.System.out;
 
 class BubbleSort {
     public static void main(String[] args) {
