@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 class BubbleSort {
     public static void main(String[] args) {
-        int n,c,d,swap;
+        int n,c,d,temp;
         Scanner in = new Scanner (System.in);
         
         System.out.println("Input number of integers to sort");
@@ -20,9 +20,9 @@ class BubbleSort {
             for (d=0;d<n-c-1;d++){
                 if (array[d]>array[d+1])
                 {
-                    swap = array[d];
+                    temp = array[d];
                     array[d]=array[d+1];
-                    array[d+1]=swap;
+                    array[d+1]=temp;
                 }
             }
         }
