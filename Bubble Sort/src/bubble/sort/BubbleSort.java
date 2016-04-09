@@ -7,12 +7,12 @@ class BubbleSort {
         int n,c,d,temp;
         Scanner in = new Scanner (System.in);
         
-        System.out.println("Input number of integers to sort");
+        out.println("Input number of integers to sort");
         n=in.nextInt();
         
         int array[]=new int[n];
         
-        System.out.println("Enter "+n+" integers");
+        out.println("Enter "+n+" integers");
         
         for (c=0;c<n;c++)
             array[c]=in.nextInt();
@@ -31,6 +31,6 @@ class BubbleSort {
 
         
         for (c=0;c<n;c++)
-            System.out.println(array[c]);
+            out.println(array[c]);
     }
 }
